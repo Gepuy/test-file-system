@@ -3,7 +3,7 @@ import { EItemType } from "../enums";
 export interface IItem {
   readonly id: string;
   readonly name: string;
-  readonly parentId?: string;
+  readonly parentId?: string | null;
   readonly created_at: string;
   readonly type: EItemType;
   readonly children?: ReadonlyArray<IItem>;
