@@ -1,0 +1,135 @@
+{
+  "data": [
+    {
+      "id": "b7dfae68-63f8-4cd4-b865-a481230981e3",
+      "name": "Home",
+      "parentId": null,
+      "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-24T00:00:00Z",
+      "type": "folder",
+      "userHasAccess": true,
+      "children": [
+        {
+          "id": "6c69d8d1-d460-42a7-8da0-79eba36db391",
+          "name": "Test folder with files",
+          "parentId": "b7dfae68-63f8-4cd4-b865-a481230981e3",
+          "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-25T00:00:00Z",
+          "type": "folder",
+          "userHasAccess": true,
+          "children": [
+            {
+              "id": "245105s1-g245-4f63-8423-4e5ad4be884b",
+              "name": "Text",
+              "parentId": "6c69d8d1-d460-42a7-8da0-79eba36db391",
+              "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-26T00:00:00Z",
+              "type": "file",
+              "extension": ".txt",
+              "userHasAccess": true
+            },
+            {
+              "id": "439002a9-c287-4f63-8423-4e5ad4be388a",
+              "name": "Image",
+              "parentId": "6c69d8d1-d460-42a7-8da0-79eba36db391",
+              "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-27T00:00:00Z",
+              "type": "file",
+              "extension": ".png",
+              "userHasAccess": true
+            }
+          ]
+        },
+        {
+          "id": "86143021-42f0-408e-a6af-467975ca3d89",
+          "name": "Another Folder",
+          "parentId": "b7dfae68-63f8-4cd4-b865-a481230981e3",
+          "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-28T00:00:00Z",
+          "type": "folder",
+          "userHasAccess": false,
+          "children": [
+            {
+              "id": "9d19bdc0-4adc-4a45-acf0-c215bc582b30",
+              "name": "Pdf",
+              "parentId": "86143021-42f0-408e-a6af-467975ca3d89",
+              "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-29T00:00:00Z",
+              "type": "file",
+              "extension": ".pdf",
+              "userHasAccess": false
+            },
+            {
+              "id": "8186c7cd-08a4-47b2-ad3d-5fe6bb081582",
+              "name": "One more folder",
+              "parentId": "86143021-42f0-408e-a6af-467975ca3d89",
+              "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-30T00:00:00Z",
+              "type": "folder",
+              "userHasAccess": false,
+              "children": [
+                {
+                  "id": "7f34c994-7fa3-4679-b001-6de73b6b9a7b",
+                  "name": "file",
+                  "parentId": "8186c7cd-08a4-47b2-ad3d-5fe6bb081582",
+                  "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-31T00:00:00Z",
+                  "type": "file",
+                  "extension": ".docx",
+                  "userHasAccess": false
+                },
+                {
+                  "id": "5b7eec74-d0b4-45f8-9f97-d7e246d44ebb",
+                  "name": "image",
+                  "parentId": "8186c7cd-08a4-47b2-ad3d-5fe6bb081582",
+                  "created_at": "2024-01-01T00:00:00Z",
+                  "type": "file",
+                  "extension": ".jpg",
+                  "userHasAccess": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8f168c12-3918-4a36-99bc-6dccf054911b",
+          "name": "Empty Folder",
+          "parentId": null,
+          "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-24T00:00:00Z",
+          "type": "folder",
+          "userHasAccess": false,
+          "children": []
+        },
+        {
+          "id": "2cf68d1a-478b-45cd-af4a-76ae88189a9a",
+          "name": "Folder with files",
+          "parentId": "b7dfae68-63f8-4cd4-b865-a481230981e3",
+          "created_at": "2024-01-03T00:00:00Z",
+          "type": "folder",
+          "userHasAccess": true,
+          "children": [
+            {
+              "id": "0fb3d64e-10e2-46f3-99d8-366094227e08",
+              "name": "lab",
+              "parentId": "2cf68d1a-478b-45cd-af4a-76ae88189a9a",
+              "created_at": "2024-01-04T00:00:00Z",
+              "type": "file",
+              "extension": ".xlsx",
+              "userHasAccess": true
+            },
+            {
+              "id": "3a9deede-0902-4986-b414-4e8af452e157",
+              "name": "task",
+              "parentId": "2cf68d1a-478b-45cd-af4a-76ae88189a9a",
+              "created_at": "2024-01-05T00:00:00Z",
+              "type": "file",
+              "extension": ".doc",
+              "userHasAccess": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19be2687-413c-48d1-8e09-38a8fc51ff73",
+      "name": "Internal empty storage",
+      "parentId": null,
+      "created_at": "2023-0fb3d64e-10e2-46f3-99d8-366094227e08-24T00:00:00Z",
+      "type": "folder",
+      "children": [],
+      "userHasAccess": true
+    }
+  ]
+}

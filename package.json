@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/montserrat": "^5.0.16",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/material": "^5.15.1",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.9",
+    "@mui/x-tree-view": "^6.17.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -10,9 +17,13 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^1.6.2",
+    "debounce": "^2.0.0",
+    "json-server": "^0.17.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.3",
     "typescript": "*",
     "web-vitals": "^2.1.0"
   },
@@ -23,7 +34,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint --ext .ts --ext .tsx src",
     "lint:fix": "eslint --fix --ext .ts --ext .tsx src",
-    "prettier": "prettier --write \"src/**/*.{ts,tsx,js}\""
+    "prettier": "prettier --write \"src/**/*.{ts,tsx,js}\"",
+    "run-db": "json-server --watch -p 8080 .\\src\\assets\\data\\response.json"
   },
   "eslintConfig": {
     "extends": [
@@ -46,13 +58,13 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.4.0",
     "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-config-standard-with-typescript": "^43.0.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.33.2",
-    "eslint-config-prettier": "^8.7.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.4"
   }
 }
